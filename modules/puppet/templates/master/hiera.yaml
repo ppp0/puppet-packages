@@ -2,6 +2,7 @@
 :backends:
   - json
 :hierarchy:
+  - fqdn/%{::domain_part_1}/%/%/%
   - fqdn/%{::fqdn_reversed}
   - clientcert/%{::clientcert}
   - environment/%{::environment}
